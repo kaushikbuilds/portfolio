@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger)
 // TODO: apni asli details daalo
 const LINKS = {
   email: 'kaushik8653911@gmail.com',
-  github: 'https://github.com/your-username',
+  github: 'https://github.com/kaushikbuilds',
   linkedin: 'https://linkedin.com/in/your-username',
 }
 

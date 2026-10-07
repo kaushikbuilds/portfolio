@@ -3,7 +3,7 @@ import { FiArrowUp, FiMail } from 'react-icons/fi'
 
 const LINKS = {
   email: 'kaushik8653911@gmail.com',
-  github: 'https://github.com/your-username',
+  github: 'https://github.com/kaushikbuilds',
   linkedin: 'https://linkedin.com/in/your-username',
 }
 
