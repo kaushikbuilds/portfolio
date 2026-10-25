@@ -7,7 +7,11 @@ import { FiArrowUpRight, FiCheck, FiCopy } from 'react-icons/fi'
 
 gsap.registerPlugin(ScrollTrigger)
 
+<<<<<<< HEAD
 
+=======
+// TODO: apni asli details daalo
+>>>>>>> 9503d132b0059f850ca3a4d0e1f7bc8df346431f
 const LINKS = {
   email: 'kaushik8653911@gmail.com',
   github: 'https://github.com/kaushikbuilds',
