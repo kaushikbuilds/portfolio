@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+h1,p,h2{
+    font-family: "Inter", sans-serif;
+}
