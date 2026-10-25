@@ -232,7 +232,7 @@ const Contact = ({ dark = true }) => {
                   >
                     {p}
                   </span>
-                  <span className={`text-3xl ${t.text}`}>âœ¦</span>
+                  <span className={`text-3xl ${t.text}`}>✦</span>
                 </span>
               ))}
             </div>
