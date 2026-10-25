@@ -32,8 +32,4 @@ const SmoothScroll = () => {
   return null
 }
 
-<<<<<<< HEAD
 export default SmoothScroll
-=======
-export default SmoothScroll
->>>>>>> 9503d132b0059f850ca3a4d0e1f7bc8df346431f

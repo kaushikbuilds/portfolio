@@ -7,11 +7,7 @@ import { FiArrowUpRight, FiCheck, FiCopy } from 'react-icons/fi'
 
 gsap.registerPlugin(ScrollTrigger)
 
-<<<<<<< HEAD
 
-=======
-// TODO: apni asli details daalo
->>>>>>> 9503d132b0059f850ca3a4d0e1f7bc8df346431f
 const LINKS = {
   email: 'kaushik8653911@gmail.com',
   github: 'https://github.com/kaushikbuilds',
@@ -236,7 +232,7 @@ const Contact = ({ dark = true }) => {
                   >
                     {p}
                   </span>
-                  <span className={`text-3xl ${t.text}`}>✦</span>
+                  <span className={`text-3xl ${t.text}`}>âœ¦</span>
                 </span>
               ))}
             </div>
@@ -362,7 +358,7 @@ const Contact = ({ dark = true }) => {
                 disabled={status === 'sending'}
                 className={`ct-send group mt-8 flex w-full items-center justify-between rounded-full py-3 pl-8 pr-3 text-lg font-semibold transition-opacity hover:opacity-90 disabled:opacity-70 focus-visible:outline-2 focus-visible:outline-offset-4 ${t.btn}`}
               >
-                {status === 'sending' ? 'Sending…' : 'Get in touch'}
+                {status === 'sending' ? 'Sendingâ€¦' : 'Get in touch'}
                 <span
                   className={`flex h-14 w-14 items-center justify-center rounded-full text-2xl transition-transform duration-300 group-hover:rotate-45 ${t.btnCircle}`}
                 >

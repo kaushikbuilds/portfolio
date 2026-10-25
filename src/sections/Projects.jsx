@@ -37,11 +37,7 @@ const PROJECTS = [
     title: "Project One",
     description: "what it does and who it's for",
     stack: ["React", "Tailwind", "Firebase"],
-<<<<<<< HEAD
     image: "public/Pending Clock Indicator.png",
-=======
-    image: "https://www.vecteezy.com/free-photos/cat-pic",
->>>>>>> 9503d132b0059f850ca3a4d0e1f7bc8df346431f
     live: "",
     code: "",
   },
@@ -49,11 +45,7 @@ const PROJECTS = [
     title: "Project Two",
     description: "what it does and who it's for",
     stack: ["JavaScript", "Node.js", "REST API"],
-<<<<<<< HEAD
     image: "public/Pending Clock Indicator.png",
-=======
-    image: "https://media.istockphoto.com/id/910314172/photo/portrait-of-a-surprised-cat-scottish-straight-closeup.jpg?s=1024x1024&w=is&k=20&c=bsb9QLzNtvSfhHxNknYRL_XHSyPUoze8-Y3FUEz3Z4g=",
->>>>>>> 9503d132b0059f850ca3a4d0e1f7bc8df346431f
     live: "https://www.instagram.com/?hl=en",
     code: "",
   },
@@ -61,11 +53,7 @@ const PROJECTS = [
     title: "Project Three",
     description: "what it does and who it's for",
     stack: ["React", "Three.js", "GSAP"],
-<<<<<<< HEAD
     image: "public/Pending Clock Indicator.png",
-=======
-    image: "",
->>>>>>> 9503d132b0059f850ca3a4d0e1f7bc8df346431f
     live: "",
     code: "",
   },
@@ -141,7 +129,7 @@ function CodePanel({ project, dark }) {
   );
 }
 
-// ─── One project entry: code + live preview split ───────────────────────────
+// â”€â”€â”€ One project entry: code + live preview split â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 function ProjectEntry({ project, dark, delay }) {
   const ref = useRef(null);
   useCinematic(ref, { direction: "up", delay });
