@@ -1,5 +1,5 @@
 
-const RESPECT_REDUCED_MOTION = true
+const RESPECT_REDUCED_MOTION = false
 const PLAY_ONCE = false 
 const MAX_ITEMS = 40
 const SELECTOR = 'h1,h2,h3,h4,p,img,button,a[href],input,textarea,li,[data-build]'
