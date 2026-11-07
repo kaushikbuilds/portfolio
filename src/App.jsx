@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import ParticleBackground from './components/ParticleBackground'
 import SmoothScroll from './components/SmoothScroll'
 import AskKaushik from  './components/Askkaushik'
+import BuildLayer from "./components/build/BuildLayer"
 
 const THEME_KEY = 'theme'
 
@@ -51,12 +52,13 @@ const App = () => {
         <Home dark={dark} />
       </div>
 
-      {/* About particle div ke BAHAR hai — isliye double nahi dikhega */}
+      
       <About dark={dark} />
       <Projects dark={dark} />
       <Contact dark={dark} />
       <Footer dark={dark} /> 
       <AskKaushik dark={dark} />
+      <BuildLayer dark={dark} />
     </div>
   )
 }
